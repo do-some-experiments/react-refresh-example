@@ -5,9 +5,9 @@ function App() {
 
   return (
     <div>
-      <button onClick={() => setCounter(counter - 1)}>Remove</button>
+      <button onClick={() => setCounter(counter - 1)}>-</button>
       {counter}
-      <button onClick={() => setCounter(counter + 1)}>Add</button>
+      <button onClick={() => setCounter(counter + 1)}>+</button>
     </div>
   );
 }
